@@ -16,3 +16,5 @@ C:\Users\maria\Desktop\Parcial\Parcial\prueba1\obj\Debug\net5.0-windows\PedidosY
 C:\Users\maria\Desktop\Parcial\Parcial\prueba1\obj\Debug\net5.0-windows\ref\PedidosYa.dll
 C:\Users\maria\Desktop\Parcial\Parcial\prueba1\obj\Debug\net5.0-windows\PedidosYa.pdb
 C:\Users\maria\Desktop\Parcial\Parcial\prueba1\obj\Debug\net5.0-windows\PedidosYa.genruntimeconfig.cache
+C:\Users\maria\Desktop\Parcial\Parcial\prueba1\obj\Debug\net5.0-windows\PedidosYa.Properties.Resources.resources
+C:\Users\maria\Desktop\Parcial\Parcial\prueba1\obj\Debug\net5.0-windows\PedidosYa.frmSecundaria.resources
