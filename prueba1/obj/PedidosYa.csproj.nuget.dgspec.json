@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\maria\\Desktop\\Parcial\\Parcial\\prueba1\\prueba1.csproj": {}
+    "C:\\Users\\maria\\Desktop\\Parcial\\Parcial\\prueba1\\PedidosYa.csproj": {}
   },
   "projects": {
-    "C:\\Users\\maria\\Desktop\\Parcial\\Parcial\\prueba1\\prueba1.csproj": {
+    "C:\\Users\\maria\\Desktop\\Parcial\\Parcial\\prueba1\\PedidosYa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\maria\\Desktop\\Parcial\\Parcial\\prueba1\\prueba1.csproj",
-        "projectName": "prueba1",
-        "projectPath": "C:\\Users\\maria\\Desktop\\Parcial\\Parcial\\prueba1\\prueba1.csproj",
+        "projectUniqueName": "C:\\Users\\maria\\Desktop\\Parcial\\Parcial\\prueba1\\PedidosYa.csproj",
+        "projectName": "PedidosYa",
+        "projectPath": "C:\\Users\\maria\\Desktop\\Parcial\\Parcial\\prueba1\\PedidosYa.csproj",
         "packagesPath": "C:\\Users\\maria\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\maria\\Desktop\\Parcial\\Parcial\\prueba1\\obj\\",
         "projectStyle": "PackageReference",

@@ -1,7 +1,7 @@
 ﻿
 namespace prueba1
 {
-    partial class namePrincipal
+    partial class frmPrincipal
     {
         /// <summary>
         ///  Required designer variable.
@@ -29,8 +29,8 @@ namespace prueba1
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(namePrincipal));
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPrincipal));
+            this.MsCreditos = new System.Windows.Forms.MenuStrip();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.gbCategorias = new System.Windows.Forms.GroupBox();
             this.rbRestaurantes = new System.Windows.Forms.RadioButton();
@@ -46,22 +46,22 @@ namespace prueba1
             this.lblUnidades = new System.Windows.Forms.Label();
             this.lblPrecio = new System.Windows.Forms.Label();
             this.lblTotal = new System.Windows.Forms.Label();
-            this.menuStrip1.SuspendLayout();
+            this.MsCreditos.SuspendLayout();
             this.gbCategorias.SuspendLayout();
             this.SuspendLayout();
             // 
-            // menuStrip1
+            // MsCreditos
             // 
-            this.menuStrip1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.MsCreditos.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.MsCreditos.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.MsCreditos.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem1});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 384);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.menuStrip1.Size = new System.Drawing.Size(534, 27);
-            this.menuStrip1.TabIndex = 0;
-            this.menuStrip1.Text = "menuStrip1";
+            this.MsCreditos.Location = new System.Drawing.Point(0, 384);
+            this.MsCreditos.Name = "MsCreditos";
+            this.MsCreditos.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.MsCreditos.Size = new System.Drawing.Size(534, 27);
+            this.MsCreditos.TabIndex = 0;
+            this.MsCreditos.Text = "menuStrip1";
             // 
             // toolStripMenuItem1
             // 
@@ -131,6 +131,7 @@ namespace prueba1
             this.btnConfirmarPedido.TabIndex = 2;
             this.btnConfirmarPedido.Text = "Confirmar pedido";
             this.btnConfirmarPedido.UseVisualStyleBackColor = false;
+            this.btnConfirmarPedido.Click += new System.EventHandler(this.btnConfirmarPedido_Click);
             // 
             // cboProductos
             // 
@@ -157,6 +158,7 @@ namespace prueba1
             this.txtPrecio.Size = new System.Drawing.Size(138, 23);
             this.txtPrecio.TabIndex = 5;
             this.txtPrecio.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            
             // 
             // txtTotal
             // 
@@ -167,6 +169,7 @@ namespace prueba1
             this.txtTotal.Size = new System.Drawing.Size(153, 23);
             this.txtTotal.TabIndex = 6;
             this.txtTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            
             // 
             // btnAgregarProducto
             // 
@@ -179,7 +182,7 @@ namespace prueba1
             this.btnAgregarProducto.TabIndex = 7;
             this.btnAgregarProducto.Text = "Agregar al carro";
             this.btnAgregarProducto.UseVisualStyleBackColor = false;
-            this.btnAgregarProducto.Click += new System.EventHandler(this.button2_Click);
+            this.btnAgregarProducto.Click += new System.EventHandler(this.btnAgregarProducto_Click);
             // 
             // lblProducto
             // 
@@ -190,7 +193,6 @@ namespace prueba1
             this.lblProducto.Size = new System.Drawing.Size(87, 21);
             this.lblProducto.TabIndex = 8;
             this.lblProducto.Text = "Productos";
-            this.lblProducto.Click += new System.EventHandler(this.label1_Click);
             // 
             // lblUnidades
             // 
@@ -211,7 +213,6 @@ namespace prueba1
             this.lblPrecio.Size = new System.Drawing.Size(58, 21);
             this.lblPrecio.TabIndex = 10;
             this.lblPrecio.Text = "Precio";
-            this.lblPrecio.Click += new System.EventHandler(this.label3_Click);
             // 
             // lblTotal
             // 
@@ -222,9 +223,8 @@ namespace prueba1
             this.lblTotal.Size = new System.Drawing.Size(109, 21);
             this.lblTotal.TabIndex = 11;
             this.lblTotal.Text = "Total a pagar";
-            this.lblTotal.Click += new System.EventHandler(this.lblTotal_Click);
             // 
-            // namePrincipal
+            // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -240,17 +240,17 @@ namespace prueba1
             this.Controls.Add(this.cboProductos);
             this.Controls.Add(this.btnConfirmarPedido);
             this.Controls.Add(this.gbCategorias);
-            this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.MsCreditos);
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "namePrincipal";
+            this.Name = "frmPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PedidosYa";
-            this.Load += new System.EventHandler(this.Form1_Load);
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            this.Load += new System.EventHandler(this.frmPrincipal_Load);
+            this.MsCreditos.ResumeLayout(false);
+            this.MsCreditos.PerformLayout();
             this.gbCategorias.ResumeLayout(false);
             this.gbCategorias.PerformLayout();
             this.ResumeLayout(false);
@@ -260,7 +260,7 @@ namespace prueba1
 
         #endregion
 
-        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.MenuStrip MsCreditos;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.GroupBox gbCategorias;
         private System.Windows.Forms.RadioButton rbRestaurantes;
